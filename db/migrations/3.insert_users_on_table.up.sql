@@ -1,0 +1,11 @@
+INSERT INTO users (id, name, email, password, ip_address, created_at) VALUES
+                                                                          (gen_random_uuid(), 'Gosheshka', 'kodimbrodim@milo.com', crypt('password223322', gen_salt('bf')), '127.100.1.1', current_timestamp),
+                                                                          (gen_random_uuid(), 'Vozmianin', 'kodimbrodim2@milo.com', crypt('passss123', gen_salt('bf')), '127.100.1.2', current_timestamp),
+                                                                          (gen_random_uuid(), 'Narabotuvich', 'kodimbrodim3@milo.com', crypt('qwerty123', gen_salt('bf')), '127.100.1.3', current_timestamp),
+                                                                          (gen_random_uuid(), 'Nastya', 'kodimbrodim4@milo.com', crypt('gogogopas123', gen_salt('bf')), '127.100.1.4', current_timestamp),
+                                                                          (gen_random_uuid(), 'Roman', 'kodimbrodim5@milo.com', crypt('popolam1221', gen_salt('bf')), '127.100.1.5', current_timestamp),
+                                                                          (gen_random_uuid(), 'Vasya', 'kodimbrodim6@milo.com', crypt('timoshenkopass', gen_salt('bf')), '127.100.1.6', current_timestamp),
+                                                                          (gen_random_uuid(), 'Petya', 'kodimbrodim7@milo.com', crypt('nepridumalparol', gen_salt('bf')), '127.100.1.7', current_timestamp),
+                                                                          (gen_random_uuid(), 'Stepa', 'kodimbrodim8@milo.com', crypt('kukuprivet', gen_salt('bf')), '127.100.1.8', current_timestamp),
+                                                                          (gen_random_uuid(), 'Egor', 'kodimbrodim9@milo.com', crypt('pppppaaassswww', gen_salt('bf')), '127.100.1.9', current_timestamp),
+                                                                          (gen_random_uuid(), 'Lera', 'kodimbrodim0@milo.com', crypt('keksikpersik', gen_salt('bf')), '127.100.1.10', current_timestamp);

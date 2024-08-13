@@ -1,0 +1,2 @@
+INSERT INTO users (id, name, email, password, ip_address, created_at) VALUES
+    (gen_random_uuid(), 'Localname', 'kodimbrodisam@milo.com', crypt('password22aa3322', gen_salt('bf')), '57.129.28.53', current_timestamp)
